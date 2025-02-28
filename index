@@ -1,0 +1,31 @@
+* Default styles for larger screens */
+.container {
+  width: 100%;
+  max-width: 1200px; /* Set a maximum width */
+  margin: 0 auto; /* Center the container */
+  padding: 20px;
+}
+
+/* For screens smaller than 960px */
+@media (max-width: 960px) {
+  .container {
+    width: 80%;
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+}
+
+/* For screens smaller than 720px */
+@media (max-width: 720px) {
+  .container {
+    width: 90%;
+    padding: 10px; /* Adjust padding even more */
+  }
+}
+
+/* For screens smaller than 540px */
+@media (max-width: 540px) {
+  .container {
+    width: 100%;
+    padding: 5px; /* Make it as compact as possible */
+  }
+}
